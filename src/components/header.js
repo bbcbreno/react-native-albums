@@ -18,6 +18,7 @@ const styles = {
     alignItems: 'center', //for horizontal: flex-start | flex-end
     height: 60,
     paddingTop: 15,
+    marginBottom: 10,
 
     shadowColor: '#222',
     shadowOffset: { width: 0, height: 2 },
