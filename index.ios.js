@@ -4,7 +4,7 @@ import Header from './src/components/header.js';
 
 // JSX - use babel to simulate
 const App = () => (
-  <Header/>
+  <Header headerText={'Albums'}/>
 );
 
 AppRegistry.registerComponent('album', () => App);
