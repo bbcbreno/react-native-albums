@@ -21,6 +21,7 @@ class AlbumList extends Component {
     console.log(this.state)
 
     return (
+      // When creates ScrollView must set style: flex 1 on parent
       <ScrollView>
         {this.renderAlbums()}
       </ScrollView>
