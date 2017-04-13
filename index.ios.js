@@ -5,7 +5,7 @@ import AlbumList from './src/components/AlbumList.js';
 
 // JSX - use babel to simulate
 const App = () => (
-  <View>
+  <View style={{ flex: 1 }}>
     <Header headerText={'Albums'}/>
     <AlbumList />
   </View>
